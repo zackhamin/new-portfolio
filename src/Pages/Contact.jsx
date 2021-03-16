@@ -64,9 +64,9 @@ const Contact = () => {
       };
 
       return (
-        <div style={{display:'flex',flexDirection:'column' ,alignItems:'center', width:'100%', height:'100vh',backgroundColor:'black',padding:20}}>
-        <Paper elevation={3} style={{borderRadius:'15%',height:350, width:300, backgroundColor:'whitesmoke',padding:10, display:'flex',
-            alignItems:'center', justifyContent:'center'}}>
+        <div style={{display:'flex',flexDirection:'column' ,alignItems:'center', width:'100%', height:'100vh',backgroundColor:'black'}}>
+        <Paper elevation={3} style={{borderRadius:'10%',height:300, width:300, backgroundColor:'whitesmoke', display:'flex',
+            alignItems:'center', justifyContent:'center', marginTop:40}}>
             <form onSubmit={sendEmail}>
             <Grid container spacing={2} direction='column'>
                 <Grid item > <TextFields label="Name" variant="outlined" size="small" type="text" onChange={e => setSender(e.target.value)} /> </Grid>

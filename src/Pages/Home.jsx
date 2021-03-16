@@ -4,6 +4,7 @@ import Pulse from 'react-reveal/Pulse';
 import Button from '@material-ui/core/Button'
 import { Link } from "react-router-dom";
 import { MediaQuery, useMediaQuery } from 'react-responsive';
+import myImage from '../images/polaroid.jpg'
 
 export default function Home() {
 
@@ -47,9 +48,9 @@ export default function Home() {
 
 
     return (
-        <div style={{display:'flex',flexDirection:'column' ,alignItems:'center', width:'100%', minHeight:'100vh',backgroundColor:'black', padding:20}}>
-            <Paper elevation={3} style={{display:'flex',flexDirection:'column', height:'95%', width:'90%', backgroundColor:'black',padding:10}}>
-
+        <div style={{display:'flex',flexDirection:'row' ,justifyContent:'center', width:'100%', height:'100vh',backgroundColor:'black'}}>
+            <Paper elevation={3} style={{display:'flex',flexDirection:'column', height:'95%', width:'90%', backgroundColor:'black'}}>
+                
             { isBigScreen && 
             <div>
             <Pulse>

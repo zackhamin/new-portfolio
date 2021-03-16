@@ -6,11 +6,11 @@ import { Link } from "react-router-dom";
 function Header() {
     return (
     <div>
-          <div style={{padding:20,display:'flex', width:'100%', height:15, backgroundColor:'black', alignContent:'right'}}>
+          <div style={{display:'flex', width:'100%', height:15, backgroundColor:'black', alignContent:'right', paddingTop:20}}>
     
         <Button  onClick={() =>
                 window.open(
-                  "https://drive.google.com/file/d/1FM7oJbPHUc-ir0yEzqh-DA0bnsQZh8hr/view?usp=sharing")}>
+                  "https://drive.google.com/file/d/1Z2KywXBfURh8rp-3W7CC0JDtkrvZ4U5p/view?usp=sharing")}>
          <strong style={{color:'whitesmoke'}}>Cv</strong>
         </Button>
 
@@ -23,8 +23,8 @@ function Header() {
             <strong style={{color:'whitesmoke'}}>Git</strong>
         </Button>
         </div>
-        <div style={{display:'flex', width:'100%', alignContent:'center', justifyContent:'center', backgroundColor:'black', padding:20}}>
-          <Link to='/' style={{textDecoration:'none'}}><h1 style={{color:'#232b2b',fontSize:40,fontFamily:'Source Code Pro',textDecoration:'line-through', textDecorationColor:'red'}}>Ishaq</h1>
+        <div style={{display:'flex', width:'100%', alignContent:'center', justifyContent:'center', backgroundColor:'black'}}>
+          <Link to='/' style={{textDecoration:'none'}}><h1 style={{color:'gray',fontSize:40,fontFamily:'Source Code Pro',textDecoration:'line-through', textDecorationColor:'red'}}>Ishaq</h1>
           </Link>
         </div>
     </div>
